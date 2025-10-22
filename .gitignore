@@ -23,8 +23,10 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Project specific
+# Project specific - exclude document files
 *.pdf
 *.docx
-*.txt
 cache.pkl
+
+# But keep requirements.txt
+!requirements.txt
